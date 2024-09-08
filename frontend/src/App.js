@@ -20,7 +20,8 @@ import MaharashtraInfo from './Info/MaharshtraInfo';
 import WordOfTheDay from './Components/Wotd/Wotd';
 import Calendar from './Components/Calendar/Calendar';
 import Wording from "../src/Components/Wotd/WordApp";
-
+import SubBoxes from './Components/SubBox/SubBoxes'
+import Workshop from './Components/Workshop/Workshop';
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
         <Route path='/calendar' element={<Calendar />} />
         <Route path='/quiz' />
         <Route path='/word' element={<Wording/>}/>
-
+        <Route path='/subboxes' element={<SubBoxes />} />
+        <Route path='/workshop' element={<Workshop />} />
     </Routes>
     </BrowserRouter>
     </div>
