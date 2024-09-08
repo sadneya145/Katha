@@ -1,0 +1,65 @@
+.start-section {
+  background-image: url('../startbg1.jpg'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire section with the image */
+  background-position: center; /* Center the background image */
+  position: relative; /* Make it easier to layer content */
+  color: #fff; /* White text color */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Padding around the section */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.start-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 0; /* Place it behind the content */
+}
+
+.start-container {
+  display: flex;
+  justify-content: center; /* Center align content horizontally */
+  align-items: center; /* Center align content vertically */
+  height: 100vh; /* Full viewport height */
+  position: relative; /* Positioning context for content */
+  z-index: 1; /* Bring the content above the overlay */
+}
+
+.start-content {
+  padding: 20px; /* Padding inside the content */
+  color: #fff; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Stronger text shadow for better visibility */
+}
+
+.start-title {
+  font-size: 3rem; /* Larger font size for the title */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 20px; /* Margin below the title */
+  font-family: 'Georgia', serif;
+  color: #c0b894; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.start-button {
+  background-color: #766666; /* Button background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  padding: 10px 30px; /* Padding inside the button */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1.2rem; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  text-transform: uppercase; /* Uppercase text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow to the button */
+}
+
+.start-button:hover {
+  background-color: #6e4c4b; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight scaling effect on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}

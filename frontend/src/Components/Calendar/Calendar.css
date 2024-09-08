@@ -1,0 +1,67 @@
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.react-calendar {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* Reduced padding to make the calendar smaller */
+    background-color: #fff;
+    font-size: 1em;
+    /* Adjust font size */
+    width: 60%;
+    /* Set a smaller width */
+    max-width: 800px;
+    /* Cap the maximum width */
+}
+
+.react-calendar_month-viewdays_day {
+    height: 60px;
+    /* Reduced height of each day cell */
+}
+
+.react-calendar__tile {
+    text-align: center;
+    padding: 10px;
+    /* Reduced padding */
+    font-size: 0.9em;
+    /* Slightly smaller text size */
+    border-radius: 8px;
+}
+
+.react-calendar__tile--active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.react-calendar__tile p {
+    margin: 0;
+    font-size: 0.8em;
+    /* Adjust font size for festival names */
+    white-space: normal;
+    /* Allow text to wrap */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Add ellipsis if the text is too long */
+    display: block;
+    /* Ensure text is displayed correctly */
+}
+
+.react-calendar__navigation button {
+    font-size: 1.2em;
+    /* Adjust font size for navigation buttons */
+}
+
+.react-calendar__navigation button:enabled:hover {
+    background-color: #ddd;
+}
+
+.react-calendar__navigation button[disabled] {
+    background-color: #f4f4f4;
+}

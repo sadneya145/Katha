@@ -1,0 +1,112 @@
+[
+    {
+        "id": "01",
+        "question": "Which monument is known as the 'Symbol of Love' in India?",
+        "options": [
+            "Qutub Minar",
+            "Taj Mahal",
+            "Red Fort",
+            "India Gate"
+        ],
+        "answer": "Taj Mahal"
+    },
+    {
+        "id": "02",
+        "question": "Which Indian emperor built the Red Fort in Delhi?",
+        "options": [
+            "Akbar",
+            "Shah Jahan",
+            "Aurangzeb",
+            "Babur"
+        ],
+        "answer": "Shah Jahan"
+    },
+    {
+        "id": "03",
+        "question": "The Qutub Minar is located in which Indian city?",
+        "options": [
+            "Agra",
+            "Delhi",
+            "Jaipur",
+            "Mumbai"
+        ],
+        "answer": "Delhi"
+    },
+    {
+        "id": "04",
+        "question": "Which Indian monument is also referred to as 'Chennai's Gateway'?",
+        "options": [
+            "Fort St. George",
+            "Vivekananda House",
+            "Marina Beach",
+            "Kapaleeshwarar Temple"
+        ],
+        "answer": "Fort St. George"
+    },
+    {
+        "id": "05",
+        "question": "The Brihadeeswarar Temple is located in which Indian state?",
+        "options": [
+            "Tamil Nadu",
+            "Karnataka",
+            "Kerala",
+            "Andhra Pradesh"
+        ],
+        "answer": "Tamil Nadu"
+    },
+    {
+        "id": "06",
+        "question": "Which monument is known for its large stone statues of Gautama Buddha?",
+        "options": [
+            "Ellora Caves",
+            "Ajanta Caves",
+            "Sanchi Stupa",
+            "Mahabalipuram"
+        ],
+        "answer": "Mahabalipuram"
+    },
+    {
+        "id": "07",
+        "question": "Which monument is known as the 'Gateway to India'?",
+        "options": [
+            "India Gate",
+            "Qutub Minar",
+            "Gateway of India",
+            "Charminar"
+        ],
+        "answer": "Gateway of India"
+    },
+    {
+        "id": "08",
+        "question": "Which historical fort is located in Rajasthan and was once the residence of Rajput kings?",
+        "options": [
+            "Mehrangarh Fort",
+            "Agra Fort",
+            "Golconda Fort",
+            "Lal Qila"
+        ],
+        "answer": "Mehrangarh Fort"
+    },
+    {
+        "id": "09",
+        "question": "Which Mughal emperor commissioned the construction of the Taj Mahal?",
+        "options": [
+            "Akbar",
+            "Shah Jahan",
+            "Jahangir",
+            "Babur"
+        ],
+        "answer": "Shah Jahan"
+    },
+    {
+        "id": "10",
+        "question": "The ancient city of Hampi, known for its ruins, is located in which state?",
+        "options": [
+            "Karnataka",
+            "Maharashtra",
+            "Andhra Pradesh",
+            "Telangana"
+        ],
+        "answer": "Karnataka"
+    }
+]

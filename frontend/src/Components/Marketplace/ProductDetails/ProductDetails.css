@@ -1,0 +1,33 @@
+.product-details-container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .product-details-image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .product-details-info {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .product-details-info .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .product-details-info .old-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .reviews {
+    margin-top: 20px;
+  }
+  
+  .reviews h2 {
+    margin-bottom: 10px;
+  }
+  

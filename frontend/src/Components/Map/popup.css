@@ -1,0 +1,106 @@
+.popup {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    pointer-events: auto;
+}
+
+.popup h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.popup p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.popup a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.popup a:hover {
+    text-decoration: underline;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hover Popup Styling */
+.hover-popup {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    /* Ensures it's not interactive */
+    z-index: 999;
+}
+
+.map-popup {
+    white-space: pre-line;
+}
+
+.popup {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 250px;
+    z-index: 1000;
+}
+
+.popup h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.popup p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #555;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #666;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+.more-info-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.more-info-link:hover {
+    text-decoration: underline;
+}

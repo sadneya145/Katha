@@ -1,0 +1,86 @@
+.handicrafts-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for better contrast */
+  }
+  
+  .handicrafts-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* Darker color for the heading */
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if needed */
+    gap: 20px;
+    justify-content: center; /* Center-aligns items */
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #fff; /* White background for product cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px; /* Slight rounding of the image corners */
+  }
+  
+  .product-card h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555; /* Slightly lighter color for product names */
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+    color: #333; /* Darker text for better readability */
+  }
+  
+  .product-card .new-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e74c3c; /* Highlight the new price */
+  }
+  
+  .product-card .old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px; /* Space between new and old prices */
+  }
+  
+  .product-card button {
+    background-color: rgba(114, 89, 85, 0.9);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: rgba(86, 62, 59, 0.9); /* Darker shade with transparency */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+
+
+  
