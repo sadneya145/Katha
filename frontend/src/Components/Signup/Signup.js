@@ -44,7 +44,7 @@ function Signup() {
         setMessage('Registration successful. Please check your email for verification.');
         setError('');
         // Redirect to the Info page
-        navigate('/home');
+        navigate('/');
       }
     } catch (err) {
       setError(err.response?.data?.error || 'An error occurred');
