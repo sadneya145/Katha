@@ -4,6 +4,172 @@ export const touristData = [
         id: 'MH',
         name: 'Maharashtra',
         latLng: [19.7515, 75.7139],
+        cities: [
+            {
+                name: 'Mumbai',
+                latLng: [19.0760, 72.8777],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry.",
+                link: 'https://en.wikipedia.org/wiki/Mumbai',
+                touristSpots: [
+                    { 
+                        name: 'Gateway of India', 
+                        latLng: [18.9220, 72.8347], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=33049&format=png&color=1A1A1A',
+                        info: 'The Gateway of India is a historic monument in Mumbai, built to commemorate the visit of King George V and Queen Mary.',
+                        link: 'https://en.wikipedia.org/wiki/Gateway_of_India'
+                    },
+                    { 
+                        name: 'Elephanta Caves', 
+                        latLng: [18.9633, 72.9315], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=eFfr2yOsR6rW&format=png&color=1A1A1A',
+                        info: 'Elephanta Caves are a network of sculpted caves located on Elephanta Island, famous for its ancient Hindu temples.',
+                        link: 'https://en.wikipedia.org/wiki/Elephanta_Caves'
+                    },
+                    { 
+                        name: 'Chhatrapati Shivaji Maharaj Terminus', 
+                        latLng: [18.9400, 72.8347], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=70353&format=png&color=000000',
+                        info: 'A historic railway station and UNESCO World Heritage Site known for its Victorian Gothic architecture.',
+                        link: 'https://en.wikipedia.org/wiki/Chhatrapati_Sharaji_Maharaj_Terminus'
+                    },
+                    { 
+                        name: 'Marine Drive', 
+                        latLng: [18.9358, 72.8235], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=16424&format=png&color=000000',
+                        info: 'A picturesque promenade along the Arabian Sea, known for its stunning views of the Mumbai skyline and sunset.',
+                        link: 'https://en.wikipedia.org/wiki/Marine_Drive'
+                    },
+                    { 
+                        name: 'Haji Ali Dargah', 
+                        latLng: [18.9828, 72.8089], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=89758&format=png&color=1A1A1A',
+                        info: 'A mosque and tomb situated on an islet off the coast of Worli, a famous pilgrimage site for both Hindus and Muslims.',
+                        link: 'https://en.wikipedia.org/wiki/Haji_Ali_Dargah'
+                    },
+                    { 
+                        name: 'Siddhivinayak Temple', 
+                        latLng: [19.0170, 72.8304], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=10374&format=png&color=1A1A1A',
+                        info: 'A popular Hindu temple dedicated to Lord Ganesha, known for its intricate architecture and religious significance.',
+                        link: 'https://en.wikipedia.org/wiki/Siddhivinayak_Temple'
+                    },
+                    { 
+                        name: 'Bandra Fort', 
+                        latLng: [19.0560, 72.8321], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=0Ocos0Ug02pS&format=png&color=1A1A1A',
+                        info: 'Also known as Castella de Aguada, this fort offers panoramic views of the Arabian Sea and the Bandra-Worli Sea Link.',
+                        link: 'https://en.wikipedia.org/wiki/Bandra_Fort'
+                    },
+                    { 
+                        name: 'Castella de Aguada', 
+                        latLng: [19.0560, 72.8321], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=0Ocos0Ug02pS&format=png&color=1A1A1A',
+                        info: 'A 16th-century Portuguese fort offering spectacular views of the Arabian Sea and the Mumbai coastline.',
+                        link: 'https://en.wikipedia.org/wiki/Bandra_Fort'
+                    },
+                    { 
+                        name: 'Sanjay Gandhi National Park Fort', 
+                        latLng: [19.2206, 72.8714], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=0Ocos0Ug02pS&format=png&color=1A1A1A',
+                        info: 'A lesser-known fort located within Sanjay Gandhi National Park, offering historical insights and scenic views.',
+                        link: 'https://en.wikipedia.org/wiki/Sanjay_Gandhi_National_Park'
+                    },
+                    { 
+                        name: 'Prince of Wales Museum', 
+                        latLng: [18.9264, 72.8324], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=9887&format=png&color=1A1A1A',
+                        info: 'Also known as Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, this museum features a vast collection of Indian artifacts, sculptures, and historical pieces.',
+                        link: 'https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya'
+                    },
+                    { 
+                        name: 'Bombay High Court', 
+                        latLng: [18.9276, 72.8345], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=49548&format=png&color=1A1A1A',
+                        info: 'A historic courthouse established in 1862, showcasing British-era architecture and an important legal landmark in Mumbai.',
+                        link: 'https://en.wikipedia.org/wiki/Bombay_High_Court'
+                    },
+                    { 
+                        name: 'Mani Bhavan', 
+                        latLng: [18.9557, 72.8055], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=53748&format=png&color=1A1A1A',
+                        info: 'A historical house museum dedicated to Mahatma Gandhi, where he stayed during his visits to Mumbai, now showcasing memorabilia and books related to him.',
+                        link: 'https://en.wikipedia.org/wiki/Mani_Bhavan'
+                    },
+                    { 
+                        name: 'Karnala Fort', 
+                        latLng: [18.8874, 73.1196], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=0Ocos0Ug02pS&format=png&color=1A1A1A',
+                        info: 'An ancient hill fort near Navi Mumbai, offering historical significance as a fort occupied by various rulers and panoramic views of the Sahyadri mountain range.',
+                        link: 'https://en.wikipedia.org/wiki/Karnala_Fort'
+                    },
+                    { 
+                        name: 'Dronagiri Fort', 
+                        latLng: [18.8670, 72.9359], 
+                        iconUrl: 'https://img.icons8.com/?size=100&id=0Ocos0Ug02pS&format=png&color=1A1A1A',
+                        info: 'An ancient fort near Uran, believed to have been used by Marathas and British forces. It is a lesser-known historical site in Navi Mumbai with a rich legacy.',
+                        link: 'https://en.wikipedia.org/wiki/Uran'
+                    },
+                ]
+            },
+            
+            {
+                name: 'Pune',
+                latLng: [18.5204, 73.8567],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Pune is a city in Maharashtra, India, known for its rich cultural heritage and educational institutions. It’s home to the historic Shaniwarwada Fort, the Aga Khan Palace, and the Osho International Meditation Resort. Pune is often referred to as the 'Oxford of the East' due to its numerous educational institutions and research centers.",
+                link: 'https://en.wikipedia.org/wiki/Pune'
+            },
+            {
+                name: 'Nagpur',
+                latLng: [21.1458, 79.0882],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Nagpur is a major city in Maharashtra, India, known for its historical significance and orange cultivation. It’s often referred to as the 'Orange City' due to its prominent role in the orange trade. Nagpur is also known for the Deekshabhoomi, a significant Buddhist monument and pilgrimage site.",
+                link: 'https://en.wikipedia.org/wiki/Nagpur'
+            },
+            {
+                name: 'Nashik',
+                latLng: [20.0116, 73.7908],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Nashik is a city in Maharashtra, India, famous for its vineyards and the Kumbh Mela, a major Hindu pilgrimage. It is also known for its historical temples, including the Kalaram Temple and the Panchavati Temple. Nashik is an important center for the production of wine in India and is often called the 'Wine Capital of India'.",
+                link: 'https://en.wikipedia.org/wiki/Nashik'
+            },
+            {
+                name: 'Aurangabad',
+                latLng: [19.8762, 75.3433],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Aurangabad is known for its historical monuments, including the Ajanta and Ellora Caves, which are UNESCO World Heritage Sites. The city also has the Bibi Ka Maqbara, a mausoleum reminiscent of the Taj Mahal, and is an important center for tourism and trade in Maharashtra.",
+                link: 'https://en.wikipedia.org/wiki/Aurangabad,_Maharashtra'
+            },
+            {
+                name: 'Kolhapur',
+                latLng: [16.7056, 74.2144],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Kolhapur is renowned for its rich history and culture. It is famous for the Mahalakshmi Temple, one of the Shakti Peethas, and the Kolhapuri chappals, a traditional footwear. The city also hosts the renowned Kolhapur Fort and has a vibrant culinary scene.",
+                link: 'https://en.wikipedia.org/wiki/Kolhapur'
+            },
+            {
+                name: 'Nanded',
+                latLng: [19.1625, 77.2904],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Nanded is known for its historical and religious significance. It is home to the Hazur Sahib Gurudwara, an important pilgrimage site for Sikhs. The city has rich historical connections with the Sikh Guru Gobind Singh and is an important center of Sikhism.",
+                link: 'https://en.wikipedia.org/wiki/Nanded'
+            },
+            {
+                name: 'Solapur',
+                latLng: [17.6672, 75.9064],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Solapur is an important industrial city known for its textile industry and sugar production. It is also known for the Siddheshwar Temple and the Solapur Fort. The city is a significant center for trade and commerce in southern Maharashtra.",
+                link: 'https://en.wikipedia.org/wiki/Solapur'
+            },
+            {
+                name: 'Satara',
+                latLng: [17.6868, 73.9973],
+                iconUrl: 'https://img.icons8.com/?size=100&id=9Deeqjb8MjFH&format=png&color=228BE6',
+                info: "Satara is known for its historical forts and scenic landscapes. The city is famous for the Sajjangad Fort, also known as the 'Saint's Fort,' which was a residence of the saint Ramdas Swami. The city is also a gateway to the scenic Koynanagar region.",
+                link: 'https://en.wikipedia.org/wiki/Satara'
+            }
+        ],
         touristSpots: [
             { 
                 name: 'Ajanta Caves', 
@@ -133,7 +299,7 @@ export const touristData = [
     {
         id: 'GJ',
         name: 'Gujarat',
-        latLng: [22.2587, 71.1924],
+        latLng: [22.6708, 71.5724],
         touristSpots: [
             { 
                 name: 'Gir National Park', 
@@ -176,7 +342,7 @@ export const touristData = [
     {
         id: 'TG',
         name: 'Telangana',
-        latLng: [17.2784, 78.4784],
+        latLng: [18.1124, 79.0193],
         touristSpots: [
             { 
                 name: 'Charminar', 
@@ -219,7 +385,7 @@ export const touristData = [
     {
         id: 'JK',
         name: 'Jammu & Kashmir',
-        latLng: [33.7782, 76.5762],
+        latLng: [33.2778, 75.3412],
         touristSpots: [
             { 
                 name: 'Srinagar', 
@@ -383,7 +549,7 @@ export const touristData = [
     {
         id: 'IN-BR',
         name: 'Bihar',
-        latLng: [25.0961, 85.3131], // Example coordinates for the center of Bihar
+        latLng: [25.9644, 85.2722], // Example coordinates for the center of Bihar
         iconUrl: 'https://img.icons8.com/?size=100&id=13800&format=png&color=000000', // State icon URL
         details: {
             location: 'Eastern India',
@@ -470,63 +636,33 @@ export const touristData = [
             }
         ]
     },
-    {
-        id: 'IN-DN',
-        name: 'Dadra and Nagar Haveli and Daman and Diu',
-        latLng: [20.3974, 73.1194], // Example coordinates for the center of Dadra and Nagar Haveli and Daman and Diu
-        iconUrl: 'https://img.icons8.com/?size=100&id=13800&format=png&color=000000', // State icon URL
-        details: {
-            location: 'Western India',
-            language: 'Gujarati, Hindi',
-            festival: 'Vautha Mela',
-            famousLocation: 'Daman Fort',
-            funFact: 'Known for its beautiful beaches and historical forts.',
-            link: 'https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu',
-        },
-        touristSpots: [
-            { 
-                name: 'Daman Fort', 
-                latLng: [20.3974, 73.1194], 
-                iconUrl: 'https://img.icons8.com/?size=100&id=24640&format=png&color=000000',
-                info: 'Historical fort with Portuguese architecture.', 
-                link: 'https://en.wikipedia.org/wiki/Daman_Fort' 
-            },
-            { 
-                name: 'Jampore Beach', 
-                latLng: [20.3974, 73.1194], 
-                iconUrl: 'https://img.icons8.com/?size=100&id=49261&format=png&color=000000',
-                info: 'A serene beach known for its calm waters.', 
-                link: 'https://en.wikipedia.org/wiki/Jampore_Beach' 
-            }
-        ]
-    },
     // {
-    //     id: 'IN-DD',
-    //     name: 'Dadra and Nagar Haveli',
-    //     latLng: [20.3974, 73.1194], // Example coordinates for the center of Dadra and Nagar Haveli
+    //     id: 'IN-DN',
+    //     name: 'Dadra and Nagar Haveli and Daman and Diu',
+    //     latLng: [20.3974, 73.1194], // Example coordinates for the center of Dadra and Nagar Haveli and Daman and Diu
     //     iconUrl: 'https://img.icons8.com/?size=100&id=13800&format=png&color=000000', // State icon URL
     //     details: {
     //         location: 'Western India',
     //         language: 'Gujarati, Hindi',
-    //         festival: 'Holi',
-    //         famousLocation: 'Silvassa',
-    //         funFact: 'Known for its scenic landscapes and vibrant cultural festivals.',
-    //         link: 'https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli',
+    //         festival: 'Vautha Mela',
+    //         famousLocation: 'Daman Fort',
+    //         funFact: 'Known for its beautiful beaches and historical forts.',
+    //         link: 'https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu',
     //     },
     //     touristSpots: [
     //         { 
-    //             name: 'Silvassa', 
+    //             name: 'Daman Fort', 
     //             latLng: [20.3974, 73.1194], 
     //             iconUrl: 'https://img.icons8.com/?size=100&id=24640&format=png&color=000000',
-    //             info: 'Known for its beautiful gardens and parks.', 
-    //             link: 'https://en.wikipedia.org/wiki/Silvassa' 
+    //             info: 'Historical fort with Portuguese architecture.', 
+    //             link: 'https://en.wikipedia.org/wiki/Daman_Fort' 
     //         },
     //         { 
-    //             name: 'Vasona Lion Safari', 
+    //             name: 'Jampore Beach', 
     //             latLng: [20.3974, 73.1194], 
     //             iconUrl: 'https://img.icons8.com/?size=100&id=49261&format=png&color=000000',
-    //             info: 'A safari park dedicated to Asiatic lions.', 
-    //             link: 'https://en.wikipedia.org/wiki/Vasona_Lion_Safari' 
+    //             info: 'A serene beach known for its calm waters.', 
+    //             link: 'https://en.wikipedia.org/wiki/Jampore_Beach' 
     //         }
     //     ]
     // },

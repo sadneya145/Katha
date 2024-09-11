@@ -22,6 +22,7 @@ import Calendar from './Components/Calendar/Calendar';
 import Wording from "../src/Components/Wotd/WordApp";
 import SubBoxes from './Components/SubBox/SubBoxes'
 import Workshop from './Components/Workshop/Workshop';
+import Quiz from './Components/Quiz/Quiz';
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
         <Route path="/maharashtra" element={<MaharashtraInfo/>  } />
         <Route path='/wotd' element={<WordOfTheDay/>} />
         <Route path='/calendar' element={<Calendar />} />
-        <Route path='/quiz' />
+        <Route path='/quiz' element={<Quiz/>}/>
         <Route path='/word' element={<Wording/>}/>
         <Route path='/subboxes' element={<SubBoxes />} />
         <Route path='/workshop' element={<Workshop />} />
