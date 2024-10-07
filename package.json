@@ -7,5 +7,8 @@
     "leaflet": "^1.9.4",
     "react-simple-keyboard": "^3.7.152",
     "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0"
   }
 }

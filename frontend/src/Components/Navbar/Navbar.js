@@ -10,6 +10,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+
 const Header = () => {
   const [menu,setMenu]=useState("shop")
   // const {getTotalCartItems} =useContext(ShopContext)
@@ -27,7 +28,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home" className='mx-2 px-2'>Home</Nav.Link>
+            <Nav.Link href="/" className='mx-2 px-2'>Home</Nav.Link>
             <Nav.Link href="#link" className='mx-2 px-2'>About</Nav.Link>
             <Nav.Link href="#link" className='mx-2 px-2'>Contact</Nav.Link>
             <NavDropdown title="Shop" id="basic-nav-dropdown" className='mx-2 px-2'>
@@ -39,6 +40,8 @@ const Header = () => {
               <NavDropdown.Item href="/marketplace/spices">Spices</NavDropdown.Item>
               <NavDropdown.Item href="/marketplace/decor">Home Decor</NavDropdown.Item>
               <NavDropdown.Item href="/marketplace/pooja">Pooja Essentials</NavDropdown.Item>
+              <NavDropdown.Item href="/subboxes">Sub boxes</NavDropdown.Item>
+              <NavDropdown.Item href="/workshop">Workshop</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/marketplace">All</NavDropdown.Item>
 

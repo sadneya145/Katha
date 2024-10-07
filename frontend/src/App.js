@@ -1,9 +1,11 @@
 import React from 'react';
+import { useState } from 'react';
 import Map from './Components/Map/Map';
 import Home from './Components/Home/Home'
 import Marketplace from './Components/Marketplace/Marketplace';
 import { Routes,Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
+
 import Login from './Components/Login/Login';
 import Signup from './Components/Signup/Signup'
 import ProductDetails from './Components/Marketplace/ProductDetails/ProductDetails';
@@ -17,14 +19,23 @@ import Festival from './Components/Marketplace/Festival/Festival';
 import Pooja from './Components/Marketplace/Pooja/Pooja';
 import UttarakhandInfo from './Info/Uttarakhand';
 import MaharashtraInfo from './Info/MaharshtraInfo';
-import WordOfTheDay from './Components/Wotd/Wotd';
+import { Box } from '@mui/material';
 import Calendar from './Components/Calendar/Calendar';
-import Wording from "../src/Components/Wotd/WordApp";
+// import Wording from "../src/Components/Wotd/WordApp";
 import SubBoxes from './Components/SubBox/SubBoxes'
 import Workshop from './Components/Workshop/Workshop';
-import Quiz from './Components/Quiz/Quiz';
+import Quiz from './Components/Quiz/Quiz'
+import InputBox from './Components/WOTD/Wotd';
+import { useLocation } from 'react-router-dom';
+
 
 function App() {
+  const [openWordPopup, setOpenWordPopup] = useState(true);
+
+  const handleClosePopup = () => {
+    setOpenWordPopup(false);
+  };
+  
   return (
     <div className="App">
       <BrowserRouter>
@@ -45,14 +56,15 @@ function App() {
         <Route path="/marketplace/decor" element={<Festival/>} />
         <Route path="/uttarakhand" element={<UttarakhandInfo/>} />
         <Route path="/maharashtra" element={<MaharashtraInfo/>  } />
-        <Route path='/wotd' element={<WordOfTheDay/>} />
+        {/* <Route path='/wotd' element={<Word/>} /> */}
         <Route path='/calendar' element={<Calendar />} />
         <Route path='/quiz' element={<Quiz/>}/>
-        <Route path='/word' element={<Wording/>}/>
+        {/* <Route path='/word' element={<Wording/>}/> */}
         <Route path='/subboxes' element={<SubBoxes />} />
         <Route path='/workshop' element={<Workshop />} />
     </Routes>
     </BrowserRouter>
+    <InputBox open={openWordPopup} onClose={handleClosePopup} />
     </div>
   );
 }

@@ -8,7 +8,8 @@
             "Red Fort",
             "India Gate"
         ],
-        "answer": "Taj Mahal"
+        "answer": "Taj Mahal",
+        "explanation": "The Taj Mahal, located in Agra, was built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal. It is renowned as a symbol of eternal love."
     },
     {
         "id": "02",
@@ -19,7 +20,8 @@
             "Aurangzeb",
             "Babur"
         ],
-        "answer": "Shah Jahan"
+        "answer": "Shah Jahan",
+        "explanation": "Shah Jahan, the Mughal emperor, built the Red Fort in 1648 as the main residence of the Mughal emperors."
     },
     {
         "id": "03",
@@ -30,7 +32,8 @@
             "Jaipur",
             "Mumbai"
         ],
-        "answer": "Delhi"
+        "answer": "Delhi",
+        "explanation": "The Qutub Minar, a UNESCO World Heritage Site, is located in Delhi and is the tallest brick minaret in the world."
     },
     {
         "id": "04",
@@ -41,7 +44,8 @@
             "Marina Beach",
             "Kapaleeshwarar Temple"
         ],
-        "answer": "Fort St. George"
+        "answer": "Fort St. George",
+        "explanation": "Fort St. George, constructed in 1644, is recognized as the gateway to Chennai and an important historical landmark."
     },
     {
         "id": "05",
@@ -52,7 +56,8 @@
             "Kerala",
             "Andhra Pradesh"
         ],
-        "answer": "Tamil Nadu"
+        "answer": "Tamil Nadu",
+        "explanation": "The Brihadeeswarar Temple, located in Tamil Nadu, is one of the largest temples in India and a UNESCO World Heritage Site."
     },
     {
         "id": "06",
@@ -63,7 +68,8 @@
             "Sanchi Stupa",
             "Mahabalipuram"
         ],
-        "answer": "Mahabalipuram"
+        "answer": "Mahabalipuram",
+        "explanation": "Mahabalipuram, a UNESCO World Heritage Site, is known for its large stone statues of Gautama Buddha, intricately carved into the rock."
     },
     {
         "id": "07",
@@ -74,7 +80,8 @@
             "Gateway of India",
             "Charminar"
         ],
-        "answer": "Gateway of India"
+        "answer": "Gateway of India",
+        "explanation": "The Gateway of India, built in 1924, is a famous arch-monument in Mumbai that commemorates the visit of King George V and Queen Mary to India."
     },
     {
         "id": "08",
@@ -85,7 +92,8 @@
             "Golconda Fort",
             "Lal Qila"
         ],
-        "answer": "Mehrangarh Fort"
+        "answer": "Mehrangarh Fort",
+        "explanation": "Mehrangarh Fort, located in Jodhpur, Rajasthan, is one of the largest forts in India and was the residence of Rajput kings."
     },
     {
         "id": "09",
@@ -96,7 +104,8 @@
             "Jahangir",
             "Babur"
         ],
-        "answer": "Shah Jahan"
+        "answer": "Shah Jahan",
+        "explanation": "Shah Jahan, the Mughal emperor, commissioned the construction of the Taj Mahal in memory of his beloved wife Mumtaz Mahal."
     },
     {
         "id": "10",
@@ -107,6 +116,7 @@
             "Andhra Pradesh",
             "Telangana"
         ],
-        "answer": "Karnataka"
+        "answer": "Karnataka",
+        "explanation": "Hampi, located in Karnataka, is an ancient village famous for its ruins, temples, and historical significance."
     }
 ]
