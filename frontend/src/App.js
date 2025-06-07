@@ -25,7 +25,7 @@ import Calendar from './Components/Calendar/Calendar';
 import SubBoxes from './Components/SubBox/SubBoxes'
 import Workshop from './Components/Workshop/Workshop';
 import Quiz from './Components/Quiz/Quiz'
-import InputBox from './Components/WOTD/Wotd';
+import InputBox from './Components/Wotd/Wotd';
 import { useLocation } from 'react-router-dom';
 
 
